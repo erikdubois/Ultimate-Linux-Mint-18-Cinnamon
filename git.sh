@@ -77,6 +77,19 @@
 # git reset --hard orgin/master
 
 
+# checking if kernel files are present otherswise github will become too big
+
+
+{
+if [ ! -f linux* ]; then
+    echo "Stopping the script!!"
+    echo "Wait for the kernel update script to quit."
+    exit 0
+fi
+}
+
+
+
 # Below command will backup everything inside the project folder
 git add --all .
 
