@@ -1,4 +1,4 @@
-# Ultimate Linux Mint 18
+# Ultimate Linux Mint 18 Cinnamon
 
 Let us first take a screenshot of the initial look of Linux Mint 18 Cinnamon
 
@@ -48,7 +48,7 @@ This was the endresult after executing all the movies.
 Check out the movies by clicking here
 
 <a target="_blank" href="https://www.youtube.com/watch?v=mymzR-4hafQ&list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
-<img style="max-width:100%;" src="http://i.imgur.com/QT3sh7p.png">
+<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
 </a> 
 
 
