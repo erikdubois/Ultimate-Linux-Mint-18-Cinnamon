@@ -80,13 +80,13 @@
 # checking if kernel files are present otherswise github will become too big
 
 
-{
-if [ ! -f linux* ]; then
+if [ -f linux* ]; then
+	echo "####################################"
     echo "Stopping the script!!"
     echo "Wait for the kernel update script to quit."
+    echo "####################################"
     exit 0
 fi
-}
 
 
 
