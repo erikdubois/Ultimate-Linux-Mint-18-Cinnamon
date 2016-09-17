@@ -1,0 +1,27 @@
+[custom-keybindings/custom2]
+binding=['<Alt>n']
+command='variety -n'
+name='next wallpaper'
+
+[custom-keybindings/custom1]
+binding=['<Alt>t']
+command='variety -t'
+name='variety trash wallpaper'
+
+[custom-keybindings/custom4]
+binding=['<Alt>f']
+command='variety -f'
+name='wallpaper favorite'
+
+[custom-keybindings/custom0]
+binding=['<Primary><Shift>Escape']
+command='gnome-system-monitor'
+name='gnome-system-monitor'
+
+[custom-keybindings/custom3]
+binding=['<Alt>p']
+command='variety -p'
+name='previous wallpaper'
+
+[/]
+custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4']
