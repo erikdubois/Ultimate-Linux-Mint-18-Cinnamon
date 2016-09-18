@@ -57,6 +57,9 @@
 
 gsettings set org.gnome.gnome-screenshot default-file-type png 
 
-echo "all done"
-
-sleep 2
+echo
+echo
+echo "###############################"
+echo "All done"
+echo "###############################"
+sleep 5
