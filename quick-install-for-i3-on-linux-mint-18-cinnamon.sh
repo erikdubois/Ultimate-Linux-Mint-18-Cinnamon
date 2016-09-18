@@ -54,25 +54,20 @@
 #
 ##################################################################################################################
 
-sh conky-aureola-latest.sh
-sh conky-aurora-latest.sh
+
 
 sh icons-sardi-latest.sh
-sh icons-super-ultra-flat-numix-latest.sh
+sh icons-sardi-extra-latest.sh
+sh icons-super-ultra-flat-numix-remix-latest.sh
 
-
-sh install-gtk-arc-theme-suse-latest.sh
-sh install-gtk-blackbird-latest.sh
 
 sh install-zsh-latest.sh
+
 sudo chsh erik -s /bin/zsh
 
 sh install-all-needed-software-latest.sh
 
 sh hardcodefixer-latest.sh
-sh hardcodefixer-personal-latest.sh
 
-
-#sh install-cinnamon-latest.sh
-#sh update-to-the-last-stable-4.7-latest.sh
+sh update-to-the-last-stable-4.7-4-latest.sh
 
