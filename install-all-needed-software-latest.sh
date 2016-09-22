@@ -99,9 +99,9 @@ rm google-chrome-stable_current_amd64.deb
 ###############################################################################################
 
 # Downloading and installing latest sublime text 3
-wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
-sudo dpkg -i sublime-text_build-3114_amd64.deb
-rm sublime-text_build-3114_amd64.deb
+wget https://download.sublimetext.com/sublime-text_build-3124_amd64.deb
+sudo dpkg -i sublime-text_build-3124_amd64.deb
+rm sublime-text_build-3124_amd64.deb
 
 
 ###############################################################################################
