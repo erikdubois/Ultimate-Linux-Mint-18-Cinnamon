@@ -56,10 +56,9 @@
 
 
 
-#https://download.teamviewer.com/download/teamviewer_i386.deb
-wget https://download.sublimetext.com/sublime-text_build-3124_amd64.deb
-sudo dpkg -i sublime-text_build-3124_amd64.deb
-rm -rf sublime-text_build-3124_amd64.deb
+wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb
+sudo dpkg -i sublime-text_build-3126_amd64.deb
+rm -rf sublime-text_build-3126_amd64.deb
 
 
 ##################################################################################################################
