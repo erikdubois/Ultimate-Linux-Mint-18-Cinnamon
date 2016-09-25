@@ -1,0 +1,110 @@
+[custom-keybindings/custom0]
+binding=['<Primary><Shift>Escape']
+command='gnome-system-monitor'
+name='gnome-system-monitor'
+
+[custom-keybindings/custom1]
+binding=['<Alt>t']
+command='variety -t'
+name='variety trash wallpaper'
+
+[custom-keybindings/custom2]
+binding=['<Alt>n']
+command='variety -n'
+name='next wallpaper'
+
+[custom-keybindings/custom3]
+binding=['<Alt>p']
+command='variety -p'
+name='previous wallpaper'
+
+[custom-keybindings/custom4]
+binding=['<Alt>f']
+command='variety -f'
+name='wallpaper favorite'
+
+[custom-keybindings/custom5]
+binding=['<Super>Return']
+command='gnome-terminal'
+name='gnome-terminal'
+
+[custom-keybindings/custom10]
+binding=['<Super>F3']
+command='inkscape'
+name='inkscape'
+
+[custom-keybindings/custom6]
+binding=['<Shift><Super>Return']
+command='nemo'
+name='nemo'
+
+[custom-keybindings/custom11]
+binding=['<Primary><Alt>b']
+command='nemo'
+name='nemo'
+
+[custom-keybindings/custom7]
+binding=['<Super>F1']
+command='firefox --browser'
+name='firefox'
+
+[custom-keybindings/custom12]
+binding=['<Primary><Alt>w']
+command='subl'
+name='sublime text'
+
+[custom-keybindings/custom8]
+binding=['<Super>F2']
+command='subl'
+name='sublime text'
+
+[custom-keybindings/custom13]
+binding=['<Primary><Alt>i']
+command='inkscape'
+name='inkscape'
+
+[custom-keybindings/custom9]
+binding=['<Alt>F4']
+command='gimp'
+name='gimp'
+
+[custom-keybindings/custom14]
+binding=['<Primary><Alt>g']
+command='gimp'
+name='gimp'
+
+[custom-keybindings/custom15]
+binding=['<Super>F9']
+command='evolution'
+name='evolution'
+
+[custom-keybindings/custom16]
+binding=['<Primary><Alt>e']
+command='evolution'
+name='evolution'
+
+[custom-keybindings/custom17]
+binding=['<Super>F10']
+command='spotify'
+name='spotify'
+
+[custom-keybindings/custom18]
+binding=['<Primary><Alt>s']
+command='spotify'
+name='spotify'
+
+[/]
+custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom7', 'custom8', 'custom9', 'custom10', 'custom11', 'custom12', 'custom13', 'custom14', 'custom15', 'custom16', 'custom17', 'custom18']
+
+[media-keys]
+previous=['AudioPrev']
+next=['AudioNext']
+play=['AudioPlay']
+stop=['AudioStop']
+volume-down=['AudioLowerVolume']
+volume-up=['AudioRaiseVolume']
+volume-mute=['AudioMute']
+
+[wm]
+close=['<Shift><Super>q']
+switch-to-workspace-1=['<Super>1']
