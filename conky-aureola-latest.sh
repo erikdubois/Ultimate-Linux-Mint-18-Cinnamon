@@ -94,9 +94,9 @@ echo "Downloading the files from github to tmp directory"
 
 rm -rf /tmp/aureola
 
-git clone https://github.com/erikdubois/Aureola /tmp/aureola
+git clone https://github.com/erikdubois/Aureola /tmp/.aureola
 
-cp -rf /tmp/aureola ~/.aureola
+cp -rf /tmp/.aureola ~/
 
 rm -rf /tmp/aureola
 
