@@ -78,10 +78,12 @@ echo "Install git for an easy installation"
 	fi
 
 rm -rf /tmp/Super-Ultra-Flat-Numix-Remix
+
 git clone https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix /tmp/Super-Ultra-Flat-Numix-Remix
 find /tmp/Super-Ultra-Flat-Numix-Remix -maxdepth 1 -type f -exec rm -rf '{}' \;
 cp -rf /tmp/Super-Ultra-Flat-Numix-Remix/* ~/.icons/
-#rm -rf /tmp/Super-Ultra-Flat-Numix-Remix
+
+rm -rf /tmp/Super-Ultra-Flat-Numix-Remix
 
 
 

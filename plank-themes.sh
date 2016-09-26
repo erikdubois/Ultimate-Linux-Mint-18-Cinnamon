@@ -79,9 +79,11 @@ echo "Install git for an easy installation"
 
 
 rm -rf /tmp/Plank-Themes
+
 git clone https://github.com/erikdubois/Plank-Themes /tmp/Plank-Themes
 find /tmp/Plank-Themes -maxdepth 1 -type f -exec rm -rf '{}' \;
 cp -r /tmp/Plank-Themes/* ~/.local/share/plank/themes/
+
 rm -rf /tmp/Plank-Themes
 
 

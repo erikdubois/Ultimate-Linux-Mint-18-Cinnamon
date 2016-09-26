@@ -55,11 +55,14 @@
 ##################################################################################################################
 
 sudo apt-get install dconf-cli -y
-dconf load /org/cinnamon/desktop/keybindings/  < all-cinnamon-desktop-keybindings.dconf
+
+dconf load /org/cinnamon/desktop/keybindings/  <  all-cinnamon-desktop-keybindings
 #dconf load /org/nemo/ < nemo.dconf
 #dconf load /org/gtk/ < gtk.dconf
 #dconf load /org/gnome/ < gnome.dconf
 
-echo "all done"
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
 
-sleep 5
+

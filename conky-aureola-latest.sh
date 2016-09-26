@@ -92,16 +92,14 @@ echo "Install git for an easy installation"
 echo "################################################################"
 echo "Downloading the files from github to tmp directory"
 
+rm -rf /tmp/aureola
 
 git clone https://github.com/erikdubois/Aureola /tmp/aureola
 
-sh /tmp/aureola/get-aureola-from-github-to-local-drive.sh
+cp -rf /tmp/aureola ~/.aureola
 
-cd ~/.aureola/acros
-sh ~/.aureola/acros/install-conky.sh
-
-rm -rf "/tmp/aureola"
+rm -rf /tmp/aureola
 
 echo "################################################################"
-echo "end installing aureola"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"

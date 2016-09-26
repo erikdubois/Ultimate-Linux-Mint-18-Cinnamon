@@ -90,18 +90,25 @@ sudo apt-get install spotify-client -y
 
 # donwloading and installing google chrome for netflix e.g.
 # echo downloading google chrome latest stable edition
+rm google-chrome-stable_current_amd64.deb
+
 echo "downloading google chrome latest stable edition"
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt-get install -y libcurl3
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 rm google-chrome-stable_current_amd64.deb
 
 ###############################################################################################
 
 # Downloading and installing latest sublime text 3
-wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb /tmp/sublime-text_build-3126_amd64.deb
-sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
+
 rm /tmp/sublime-text_build-3126_amd64.deb
+
+wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
+sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
+
+rm /tmp/sublime-text_build-3126_amd64.de
 
 
 ###############################################################################################
@@ -158,4 +165,9 @@ sudo apt-get install -y breeze-cursor-theme
 #sudo apt-get -y upgrade
 #sudo apt-get -y autoremove
 #sudo apt-get -y autoclean
+
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
 

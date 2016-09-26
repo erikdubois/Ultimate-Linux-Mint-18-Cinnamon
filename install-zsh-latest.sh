@@ -71,7 +71,8 @@ echo
 echo
 echo
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "Often you do not get the chance to type your password"
+echo "This is for the script of ZSH - Colouring of your terminal"
+echo "You do not get the chance to type your password"
 echo "Retype this line again and fill in your own username"
 echo "sudo chsh username -s /bin/zsh"
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
@@ -79,3 +80,8 @@ echo
 echo
 echo "Log off or reboot to see the change in your terminal".
 echo "----------------------------------------------------"
+
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
