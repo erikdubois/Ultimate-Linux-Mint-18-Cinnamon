@@ -62,6 +62,7 @@ sh icons-super-ultra-flat-numix-remix-latest.sh
 
 sh install-canon-mg7750.sh
 
+sh install-dconf-editor.sh
 
 sh install-gtk-arc-theme-make-install-latest.sh
 sh install-gtk-arc-theme-red-latest.sh
