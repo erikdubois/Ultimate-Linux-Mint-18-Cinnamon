@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 #
 #                                       
 # MMMMMMMMMMMMMMMMMMMMMMMMMmds+.        
@@ -55,14 +55,25 @@
 ##################################################################################################################
 
 sh conky-aureola-latest.sh
-sh conky-aurora-latest.sh
 
 sh icons-sardi-latest.sh
+sh icons-sardi-extra-latest.sh
 sh icons-super-ultra-flat-numix-latest.sh
 
 
-sh install-gtk-arc-theme-suse-latest.sh
-sh install-gtk-blackbird-latest.sh
+sh install-canon-mg7750.sh
+
+
+sh install-gtk-arc-theme-make-install-latest.sh
+sh install-gtk-arc-theme-red-latest.sh
+
+sh install-peek-latest.sh
+
+sh install-simplescreenrecorder.sh
+
+sh install-teamviewer.sh
+
+sh plank-themes.sh
 
 sh install-zsh-latest.sh
 sudo chsh erik -s /bin/zsh
@@ -70,9 +81,25 @@ sudo chsh erik -s /bin/zsh
 sh install-all-needed-software-latest.sh
 
 sh hardcodefixer-latest.sh
-sh hardcodefixer-personal-latest.sh
+#sh hardcodefixer-personal-latest.sh
+
+sh update-to-the-last-stable-4.7-4-latest.sh
 
 
-#sh install-cinnamon-latest.sh
-#sh update-to-the-last-stable-4.7-latest.sh
+# Configure applications
+
+sh config_apps/all-shortcuts-cinnmon/dconf_load.sh
+sh config_apps/gnome-screenshot/set-gnome-screenshot-to-save-as-jpg.sh
+
+
+
+
+echo "Force install"
+sudo apt-get -f -y install
+echo "Upgrade"
+sudo apt-get upgrade -y
+echo "Autoremove"
+sudo apt-get autoremove -y
+echo "Autoclean"
+sudo apt-get autoclean -y
 

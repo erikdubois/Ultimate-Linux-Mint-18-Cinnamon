@@ -99,9 +99,9 @@ rm google-chrome-stable_current_amd64.deb
 ###############################################################################################
 
 # Downloading and installing latest sublime text 3
-wget https://download.sublimetext.com/sublime-text_build-3124_amd64.deb
-sudo dpkg -i sublime-text_build-3124_amd64.deb
-rm sublime-text_build-3124_amd64.deb
+wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb /tmp/sublime-text_build-3126_amd64.deb
+sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
+rm /tmp/sublime-text_build-3126_amd64.deb
 
 
 ###############################################################################################
@@ -114,7 +114,7 @@ sudo apt-get install variety -y
 ###############################################################################################
 
 #software from 'normal' repositories
-sudo apt-get install -y adobe-flashplugin catfish clementine curl dropbox evolution focuswriter frei0r-plugins geary gpick
+sudo apt-get install -y adobe-flashplugin catfish clementine curl dconf-cli dropbox evolution focuswriter frei0r-plugins geary gpick
 sudo apt-get install -y glances gparted grsync hardinfo inkscape kazam nemo-dropbox
 sudo apt-get install -y openshot ppa-purge radiotray screenruler screenfetch scrot shutter slurm 
 sudo apt-get install -y terminator thunar vlc vnstat winbind  
