@@ -54,7 +54,6 @@
 #
 ##################################################################################################################
 
-sh conky-aureola-latest.sh
 
 sh icons-sardi-latest.sh
 sh icons-sardi-extra-latest.sh
@@ -102,4 +101,7 @@ echo "Autoremove"
 sudo apt-get autoremove -y
 echo "Autoclean"
 sudo apt-get autoclean -y
+
+
+sh conky-aureola-latest.sh
 
