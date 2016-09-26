@@ -81,10 +81,11 @@
 
 
 if [ -f linux* ]; then
-	echo "####################################"
+	echo "#####################################################"
     echo "Stopping the script!!"
     echo "Wait for the kernel update script to quit."
-    echo "####################################"
+    echo "#####################################################"
+	sleep 3
     exit 0
 fi
 
