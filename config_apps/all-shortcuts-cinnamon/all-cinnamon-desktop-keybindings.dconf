@@ -53,20 +53,20 @@ binding=['<Primary><Alt>w']
 command='subl'
 name='sublime text'
 
-[custom-keybindings/custom8]
-binding=['<Super>F2']
-command='subl'
-name='sublime text'
+[custom-keybindings/custom20]
+binding=['<Alt>Right']
+command='variety -n'
+name='variety -n'
 
 [custom-keybindings/custom13]
 binding=['<Primary><Alt>i']
 command='inkscape'
 name='inkscape'
 
-[custom-keybindings/custom9]
-binding=['<Alt>F4']
-command='gimp'
-name='gimp'
+[custom-keybindings/custom21]
+binding=['<Alt>Left']
+command='variety -p'
+name='variety previous'
 
 [custom-keybindings/custom14]
 binding=['<Primary><Alt>g']
@@ -78,10 +78,20 @@ binding=['<Super>F9']
 command='evolution'
 name='evolution'
 
+[custom-keybindings/custom8]
+binding=['<Super>F2']
+command='subl'
+name='sublime text'
+
 [custom-keybindings/custom16]
 binding=['<Primary><Alt>e']
 command='evolution'
 name='evolution'
+
+[custom-keybindings/custom9]
+binding=['<Alt>F4']
+command='gimp'
+name='gimp'
 
 [custom-keybindings/custom17]
 binding=['<Super>F10']
@@ -99,7 +109,7 @@ command='gnome-screenshot -i'
 name='gnome-screenshot interactive'
 
 [/]
-custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom7', 'custom8', 'custom9', 'custom10', 'custom11', 'custom12', 'custom13', 'custom14', 'custom15', 'custom16', 'custom17', 'custom18', 'custom19']
+custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom7', 'custom8', 'custom9', 'custom10', 'custom11', 'custom12', 'custom13', 'custom14', 'custom15', 'custom16', 'custom17', 'custom18', 'custom19', 'custom20', 'custom21']
 
 [media-keys]
 screenshot-clip=@as []
