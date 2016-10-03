@@ -12,10 +12,13 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
 
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
-echo "################################################################"
+sudo add-apt-repository ppa:tomahawk/ppa -y
+sudo apt-get update
+sudo apt-get install tomahawk -y
+
+##################################################################################################################
+
+#ending
+
+

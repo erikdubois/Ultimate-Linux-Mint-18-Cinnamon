@@ -12,9 +12,20 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
+
+rm -rf /tmp/sardi
+wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
+mkdir /tmp/sardi
+tar -zxvf /tmp/sardi.tar.gz -C /tmp/sardi
+rm /tmp/sardi.tar.gz
+
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
+
+cp -r /tmp/sardi/* ~/.icons/
+rm -rf /tmp/sardi
+
+
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"

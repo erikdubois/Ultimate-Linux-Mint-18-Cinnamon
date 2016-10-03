@@ -12,7 +12,6 @@
 ##################################################################################################################
 
 
-
 #  H I G H L Y    E X P E R I M E N T A L
 
 #  Better to read and do a step by step upgrade 
@@ -45,9 +44,9 @@ echo "Be sure to backup or use it on an clean installation"
 # keep in mind that nvidia or ati drivers sometimes clash with the kernel
 # read the latest article on these matters at http://erikdubois.be
  
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8/linux-headers-4.8.0-040800-generic_4.8.0-040800.201610022031_amd64.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8/linux-headers-4.8.0-040800_4.8.0-040800.201610022031_all.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8/linux-image-4.8.0-040800-generic_4.8.0-040800.201610022031_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.5/linux-headers-4.7.5-040705-generic_4.7.5-040705.201609240533_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.5/linux-headers-4.7.5-040705_4.7.5-040705.201609240533_all.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.5/linux-image-4.7.5-040705-generic_4.7.5-040705.201609240533_amd64.deb
 
 sudo dpkg -i linux*
 

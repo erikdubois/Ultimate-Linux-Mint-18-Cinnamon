@@ -12,9 +12,12 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
+# Downloading and installing latest variety
+sudo add-apt-repository ppa:peterlevi/ppa -y
 sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
+sudo apt-get install variety -y
+
+
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"

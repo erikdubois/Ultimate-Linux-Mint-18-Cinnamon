@@ -11,10 +11,14 @@
 #
 ##################################################################################################################
 
+rm -rf /tmp/Sardi-Extra
+git clone https://github.com/erikdubois/Sardi-Extra /tmp/Sardi-Extra
+find /tmp/Sardi-Extra -maxdepth 1 -type f -exec rm -rf '{}' \;
+cp -r /tmp/Sardi-Extra/* ~/.icons/
+rm -rf /tmp/Sardi-Extra
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
+
+
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"

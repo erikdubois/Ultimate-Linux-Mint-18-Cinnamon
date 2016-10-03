@@ -11,11 +11,18 @@
 #
 ##################################################################################################################
 
+rm /tmp/sublime-text_build-3126_amd64.deb
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
+wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
+sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
+
+rm /tmp/sublime-text_build-3126_amd64.deb
+
+
+##################################################################################################################
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
+
+

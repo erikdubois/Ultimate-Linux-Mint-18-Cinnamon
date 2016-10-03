@@ -12,9 +12,37 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
+
+#https://github.com/shimmerproject/Blackbird
+
+echo "################################################################"
+echo "Checking if git is installed"
+echo "Install git for an easy installation"
+
+
+	# G I T
+
+	# check if git is installed
+	if which git > /dev/null; then
+		echo "git was installed. Proceding..."
+
+		else
+
+		echo "################################################################"
+		echo "installing git for this script to work"
+		echo "################################################################"
+
+	  	sudo apt-get install git -y
+		  	
+	fi
+
+
+git clone https://github.com/shimmerproject/Blackbird /tmp/Blackbird
+mkdir ~/.themes/Blackbird
+cp -r /tmp/Blackbird/* ~/.themes/Blackbird
+rm -rf /tmp/Blackbird
+
+
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"

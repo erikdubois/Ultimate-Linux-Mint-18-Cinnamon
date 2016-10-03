@@ -12,10 +12,17 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
 
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
-echo "################################################################"
+# repo for spotify
+sudo add-apt-repository "deb http://repository.spotify.com stable non-free" -y
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D2C19886
+
+
+# getting new info of this new repo
+sudo apt-get -y update
+
+# installing
+sudo apt-get install -y spotify-client -y
+
+
+

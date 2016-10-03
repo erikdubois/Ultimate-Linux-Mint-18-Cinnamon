@@ -12,10 +12,6 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp -y
 sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
-
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
-echo "################################################################"
+sudo apt install gimp -y

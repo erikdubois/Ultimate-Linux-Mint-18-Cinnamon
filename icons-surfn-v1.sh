@@ -12,9 +12,14 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
+
+rm -rf /tmp/Surfn
+git clone https://github.com/erikdubois/Surfn /tmp/Surfn
+find /tmp/Surfn -maxdepth 1 -type f -exec rm -rf '{}' \;
+cp -r /tmp/Surfn/* ~/.icons/
+rm -rf /tmp/Surfn
+
+
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"

@@ -12,9 +12,14 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
+# Latest builds of cinnamon and nemo
+
+sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
+sudo apt-get update 
+sudo apt-get install cinnamon -y
+sudo apt-get upgrade
+
+
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"

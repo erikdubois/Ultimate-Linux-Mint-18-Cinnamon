@@ -12,10 +12,14 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install -y simplescreenrecorder
+# repo for boot-repair
+sudo add-apt-repository -y ppa:yannubuntu/boot-repair
 
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
-echo "################################################################"
+
+# getting new info of this new repo
+sudo apt-get -y update
+
+# installing
+sudo apt-get install -y boot-repair
+
+
