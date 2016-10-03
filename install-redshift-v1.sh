@@ -13,6 +13,7 @@
 
 
 sudo apt install -y redshift redshift-gtk geoclue-2.0
+redshift &
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
