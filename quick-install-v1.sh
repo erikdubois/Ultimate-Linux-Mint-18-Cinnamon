@@ -13,34 +13,36 @@
 
 
 
-sh icons-sardi-latest.sh
-sh icons-sardi-extra-latest.sh
-sh icons-super-ultra-flat-numix-remix-latest.sh
+sh icons-sardi-v1.sh
+sh icons-sardi-extra-v1.sh
+sh icons-surfn-v1.sh
 
 
-sh install-canon-mg7750.sh
+sh install-canon-mg7750-v1.sh
 
-sh install-dconf-editor.sh
+sh install-dconf-editor-v1.sh
 
-sh install-gtk-arc-theme-make-install-latest.sh
-sh install-gtk-arc-theme-red-latest.sh
+sh install-gtk-arc-theme-v1.sh
+sh install-gtk-arc-theme-red-v1.sh
 
-sh install-peek-latest.sh
+sh install-peek-v1.sh
 
-sh install-simplescreenrecorder.sh
+sh install redshift-v1.sh
 
-sh install-teamviewer.sh
+sh install-simplescreenrecorder-v1.sh
 
-sh plank-themes.sh
+sh install-teamviewer-v1.sh
 
-sh install-all-needed-software-latest.sh
+sh plank-themes-v1.sh
 
-sh hardcodefixer-latest.sh
-#sh hardcodefixer-personal-latest.sh
+sh install-all-needed-software-at-once-v1.sh
 
-sh install-zsh-latest.sh
+sh hardcodefixer-v1.sh
+#sh hardcodefixer-personal-v1.sh
 
-sh conky-aureola-latest.sh
+sh install-zsh-v1.sh
+
+sh conky-aureola-v1.sh
 
 echo "Starting full maintenance"
 echo "Force install"
@@ -56,7 +58,7 @@ echo "###################    T H E   E N D      ######################"
 echo "################################################################"
 
 
-sh update-to-the-last-stable-4.7-4-latest.sh
+sh update-to-the-last-stable-4.8-0-v1.sh
 
 echo
 echo
