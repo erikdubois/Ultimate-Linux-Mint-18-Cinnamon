@@ -14,7 +14,7 @@
 
 #  H I G H L Y    E X P E R I M E N T A L
 
-#  Better to read and do a step by step upgrade 
+#  Better to read and do a step by step upgrade
 
 #  http://erikdubois.be/linux/the-ultimate-linux-mint-update
 
@@ -43,7 +43,7 @@ echo "Be sure to backup or use it on an clean installation"
 # depending of you hardware you can install it as wel
 # keep in mind that nvidia or ati drivers sometimes clash with the kernel
 # read the latest article on these matters at http://erikdubois.be
- 
+
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.4/linux-headers-4.7.4-040704-generic_4.7.4-040704.201609150330_amd64.deb
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.4/linux-headers-4.7.4-040704_4.7.4-040704.201609150330_all.deb
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.4/linux-image-4.7.4-040704-generic_4.7.4-040704.201609150330_amd64.deb
@@ -65,10 +65,6 @@ echo "Download files have been deleted"
 #sudo apt-get -y autoclean
 
 
-
-
-
-
-
-
-
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

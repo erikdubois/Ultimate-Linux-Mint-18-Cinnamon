@@ -11,19 +11,24 @@
 #
 ##################################################################################################################
 
+# will not install to error....????
 
 
-# repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
+#rm /tmp/code_1.5.3-1474533365_amd64.deb
+
+#wget https://code.visualstudio.com/docs/?dv=linux64_deb 
+#curl -o /tmp/code_1.5.3-1474533365_amd64.deb https://code.visualstudio.com/docs/?dv=linux64_deb
+#sudo dpkg -i code_1.5.3-1474533365_amd64.deb
+#gdebi /tmp/code_1.5.3-1474533365_amd64.deb
 
 
-# getting new info of this new repo
-sudo apt-get -y update
+#rm /tmp/code_1.5.3-1474533365_amd64.deb
 
-# installing
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
 
+##################################################################################################################
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
+
+

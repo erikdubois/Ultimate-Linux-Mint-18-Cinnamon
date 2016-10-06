@@ -31,7 +31,7 @@ echo "Install git for an easy installation"
 		echo "################################################################"
 
 	  	sudo apt-get install git -y
-		  	
+
 	fi
 
 # if there is already a folder in tmp, delete or else do nothing
@@ -48,3 +48,8 @@ cd /tmp/mint-y-theme/src
 
 sudo cp -r /tmp/mint-y-theme/usr/share/themes/* /usr/share/themes/
 rm -rf /tmp/mint-y-theme
+
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
