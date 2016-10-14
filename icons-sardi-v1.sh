@@ -22,7 +22,7 @@ rm /tmp/sardi.tar.gz
 # if there is no hidden folder then make one
 [ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-cp -r /tmp/sardi/* ~/.icons/
+cp -rf /tmp/sardi/* ~/.icons/
 rm -rf /tmp/sardi
 
 
