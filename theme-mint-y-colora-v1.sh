@@ -1,23 +1,23 @@
 #!/bin/bash
 #
-#                                       
-# MMMMMMMMMMMMMMMMMMMMMMMMMmds+.        
-# MMm----::-://////////////oymNMd+`     
-# MMd      /++                -sNMd:    
-# MMNso/`  dMM    `.::-. .-::.` .hMN:   
-# ddddMMh  dMM   :hNMNMNhNMNMNh: `NMm   
-#     NMm  dMM  .NMN/-+MMM+-/NMN` dMM   
-#     NMm  dMM  -MMm  `MMM   dMM. dMM   
-#     NMm  dMM  -MMm  `MMM   dMM. dMM   
-#     NMm  dMM  .mmd  `mmm   yMM. dMM   
-#     NMm  dMM`  ..`   ...   ydm. dMM   
-#     hMM- +MMd/-------...-:sdds  dMM   
-#     -NMm- :hNMNNNmdddddddddy/`  dMM   
-#      -dMNs-``-::::-------.``    dMM   
-#       `/dMNmy+/:-------------:/yMMM  
-#          ./ydNMMMMMMMMMMMMMMMMMMMMM  
-#             \.MMMMMMMMMMMMMMMMMMM    
-#                                      
+#
+# MMMMMMMMMMMMMMMMMMMMMMMMMmds+.
+# MMm----::-://////////////oymNMd+`
+# MMd      /++                -sNMd:
+# MMNso/`  dMM    `.::-. .-::.` .hMN:
+# ddddMMh  dMM   :hNMNMNhNMNMNh: `NMm
+#     NMm  dMM  .NMN/-+MMM+-/NMN` dMM
+#     NMm  dMM  -MMm  `MMM   dMM. dMM
+#     NMm  dMM  -MMm  `MMM   dMM. dMM
+#     NMm  dMM  .mmd  `mmm   yMM. dMM
+#     NMm  dMM`  ..`   ...   ydm. dMM
+#     hMM- +MMd/-------...-:sdds  dMM
+#     -NMm- :hNMNNNmdddddddddy/`  dMM
+#      -dMNs-``-::::-------.``    dMM
+#       `/dMNmy+/:-------------:/yMMM
+#          ./ydNMMMMMMMMMMMMMMMMMMMMM
+#             \.MMMMMMMMMMMMMMMMMMM
+#
 #
 #
 ##################################################################################################################
@@ -25,14 +25,14 @@
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
-# 
+#
 # More from Erik Dubois
 #
 # Aurora Conky
 # at http://sourceforge.net/projects/auroraconkytheme/
-# Explanation on the use of this theme can be found at 
+# Explanation on the use of this theme can be found at
 # http://erikdubois.be/category/linux/aurora-conky/
-# 
+#
 # Aureola Conky
 # Collections of nice conky's with lua syntax
 # https://github.com/erikdubois/Aureola
@@ -54,13 +54,14 @@
 #
 ##################################################################################################################
 
+# if there is no hidden folder then make one
+[ -d $HOME"/.themes" ] || mkdir -p $HOME"/.themes"
 
-
-rm -rf /tmp/arc-theme-colora
-git clone https://github.com/erikdubois/arc-theme-colora /tmp/arc-theme-colora
-#find /tmp/arc-theme-colora -maxdepth 1 -type f -exec rm -rf '{}' \;
-cp -r /tmp/arc-theme-colora/themes/* ~/.themes/
-rm -rf /tmp/arc-theme-colora
+rm -rf /tmp/Mint-Y-Colora-Theme
+git clone https://github.com/erikdubois/Mint-Y-Colora-Theme /tmp/Mint-Y-Colora-Theme
+#find /tmp/Mint-Y-Colora-Theme -maxdepth 1 -type f -exec rm -rf '{}' \;
+cp -r /tmp/Mint-Y-Colora-Theme/themes/* ~/.themes/
+rm -rf /tmp/Mint-Y-Colora-Theme
 
 
 

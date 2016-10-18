@@ -25,6 +25,9 @@ sh install-dconf-editor-v1.sh
 sh install-gtk-arc-theme-v1.sh
 sh install-gtk-arc-theme-red-v1.sh
 
+sh theme-arc-colora-v1.sh
+sh theme-mint-y-colora-v1.sh
+
 sh install-peek-v1.sh
 
 sh install redshift-v1.sh
@@ -58,7 +61,7 @@ echo "###################    T H E   E N D      ######################"
 echo "################################################################"
 
 
-sh update-to-the-last-stable-4.8-0-v1.sh
+sh update-to-the-last-stable-4.8-1-v1.sh
 
 echo
 echo
