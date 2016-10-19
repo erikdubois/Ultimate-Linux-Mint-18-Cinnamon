@@ -61,7 +61,7 @@ echo "###################    T H E   E N D      ######################"
 echo "################################################################"
 
 
-sh update-to-the-last-stable-4.8-1-2.sh
+sh update-to-the-last-stable-4.8-2.sh
 
 echo
 echo
