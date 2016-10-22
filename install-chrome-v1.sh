@@ -12,39 +12,17 @@
 ##################################################################################################################
 
 
+# donwloading and installing google chrome for netflix e.g.
+# echo downloading google chrome latest stable edition
+rm /tmp/google-chrome-stable_current_amd64.deb
 
+echo "downloading google chrome latest stable edition"
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /tmp/google-chrome-stable_current_amd64.deb
+sudo apt-get install -y libcurl3
+sudo dpkg -i /tmp/google-chrome-stable_current_amd64.deb
+sudo apt-get -f install
 
-echo "################################################################"
-echo "Checking if git is installed"
-echo "Install git for an easy installation"
-
-
-	# G I T
-
-	# check if git is installed
-	if which git > /dev/null; then
-		echo "git was installed. Proceding..."
-
-		else
-
-		echo "################################################################"
-		echo "installing git for this script to work"
-		echo "################################################################"
-
-	  	sudo apt-get install git -y
-		  	
-	fi
-
-
-rm -rf /tmp/Plank-Themes
-
-git clone https://github.com/erikdubois/Plank-Themes /tmp/Plank-Themes
-find /tmp/Plank-Themes -maxdepth 1 -type f -exec rm -rf '{}' \;
-cp -r /tmp/Plank-Themes/* ~/.local/share/plank/themes/
-
-rm -rf /tmp/Plank-Themes
-
-
+rm /tmp/google-chrome-stable_current_amd64.deb
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"

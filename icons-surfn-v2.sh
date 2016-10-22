@@ -11,12 +11,17 @@
 #
 ##################################################################################################################
 
-rm -rf /tmp/Sardi-Extra
-git clone https://github.com/erikdubois/Sardi-Extra /tmp/Sardi-Extra
-find /tmp/Sardi-Extra -maxdepth 1 -type f -exec rm -rf '{}' \;
-cp -r /tmp/Sardi-Extra/* ~/.icons/
-rm -rf /tmp/Sardi-Extra
 
+
+rm -rf /tmp/Surfn
+git clone https://github.com/erikdubois/Surfn /tmp/Surfn
+find /tmp/Surfn -maxdepth 1 -type f -exec rm -rf '{}' \;
+
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
+
+cp -rf /tmp/Surfn/* ~/.icons/
+rm -rf /tmp/Surfn
 
 
 
