@@ -62,4 +62,4 @@ dconf dump /org/cinnamon/desktop/keybindings/ > all-cinnamon-desktop-keybindings
 
 echo "all done"
 
-sleep 5
+sleep 1
