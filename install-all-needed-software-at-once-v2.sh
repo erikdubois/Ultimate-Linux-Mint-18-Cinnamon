@@ -78,7 +78,7 @@ sudo apt-get install variety -y
 ###############################################################################################
 
 #software from 'normal' repositories
-sudo apt-get install -y adobe-flashplugin catfish clementine curl dconf-cli dropbox evolution focuswriter frei0r-plugins geary gpick
+sudo apt-get install -y adobe-flashplugin catfish clementine curl dconf-cli dropbox evolution focuswriter frei0r-plugins geary gimp gpick
 sudo apt-get install -y glances gparted grsync hardinfo inkscape kazam nemo-dropbox
 sudo apt-get install -y openshot ppa-purge radiotray screenruler screenfetch scrot shutter slurm 
 sudo apt-get install -y terminator thunar vlc vnstat winbind  
