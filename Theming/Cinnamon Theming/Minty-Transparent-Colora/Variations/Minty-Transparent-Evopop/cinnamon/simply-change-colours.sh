@@ -18,13 +18,19 @@ oldcolour1="226, 60, 44"
 oldcolour2=E23C2C
 
 
-# New colours - change colouring - this is green
 
-# RGB colouring - keep spaces
+
+
+##################################################################################################
+# New colours
+##################################################################################################
+# change colouring here - this is orange - California
+
+# RGB colouring - keep spaces (rgba in theme)
 newcolour1="22, 133, 166"
 
 
-# Hexadecimal colouring
+# Hexadecimal colouring - no hashtag
 newcolour2=1685A6
 
 

@@ -55,8 +55,8 @@ StScrollBar StButton#vhandle
 StScrollBar StButton#vhandle:hover
 {
     background-gradient-direction: horizontal;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border: 1px solid rgba(95,110,75,0.2);
 }
@@ -75,8 +75,8 @@ StScrollBar StButton#hhandle
 StScrollBar StButton#hhandle:hover
 {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border: 1px solid rgba(95,110,75,0.2);
 }
@@ -119,8 +119,8 @@ StTooltip StLabel {
 .modal-dialog-button:hover {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border: 1px solid rgba(95,110,75,0.2);
 }
@@ -134,8 +134,8 @@ StTooltip StLabel {
 .hotplug-resident-eject-button:hover {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border: 1px solid rgba(95,110,75,0.2);
 }
@@ -232,8 +232,8 @@ StTooltip StLabel {
 .popup-menu-item:active {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     border: 1px solid rgba(95,110,75,0.2);
 }
 
@@ -264,7 +264,7 @@ StTooltip StLabel {
     -slider-height: 0.3em;
     -slider-background-color: rgba(255,255,255,0.33);
     -slider-border-color: rgba(255,255,255,0.1);
-    -slider-active-background-color: rgba(0, 255, 0,0.7);;
+    -slider-active-background-color: rgba(22, 133, 166,0.7);;
     -slider-active-border-color: rgba(255,255,255,0.1);
     -slider-border-width: 1px;
     -slider-handle-radius: 0.5em;
@@ -484,7 +484,7 @@ StTooltip StLabel {
 }
 
 .workspace-thumbnail-indicator {
-    outline: 2px solid rgba(0, 255, 0,0.7);
+    outline: 2px solid rgba(22, 133, 166,0.7);
     border: 1px solid rgba(0,0,0,0.15);
 }
 
@@ -573,7 +573,7 @@ StTooltip StLabel {
 }
 
 .view-tab-title:selected {
-    color: rgba(0, 255, 0,0.7);;
+    color: rgba(22, 133, 166,0.7);;
     background-gradient-direction: vertical;
     background-gradient-start: rgba(0,0,0,0.21);
     background-gradient-end: rgba(0,0,0,0.15);
@@ -747,7 +747,7 @@ StTooltip StLabel {
 }
 
 .calendar-change-month-back:hover {
-    background-color: rgba(0, 255, 0,0.7);;
+    background-color: rgba(22, 133, 166,0.7);;
 }
 
 .calendar-change-month-back:active {
@@ -767,7 +767,7 @@ StTooltip StLabel {
 }
 
 .calendar-change-month-forward:hover {
-    background-color: rgba(0, 255, 0,0.7);;
+    background-color: rgba(22, 133, 166,0.7);;
 }
 .calendar-change-month-forward:active {
     background-color: #fff;
@@ -794,16 +794,16 @@ StTooltip StLabel {
 .calendar-day-base:hover {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
 }
 
 .calendar-day-base:active {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.6);
-    background-gradient-end: rgba(0, 255, 0,0.72);
+    background-gradient-start: rgba(22, 133, 166,0.6);
+    background-gradient-end: rgba(22, 133, 166,0.72);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
 }
 
@@ -972,8 +972,8 @@ StTooltip StLabel {
 .hotplug-resident-mount:hover {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border: 1px solid rgba(95,110,75,0.2);
 }
@@ -1087,8 +1087,8 @@ StTooltip StLabel {
 
 .switcher-list .item-box:selected {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(255,255,255,0.3);
 }
 
@@ -1554,8 +1554,8 @@ StTooltip StLabel {
 .keyboard-key:hover {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
 }
 
@@ -1612,8 +1612,8 @@ StTooltip StLabel {
 .menu-favorites-button:hover {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border-radius: 3px;
 }
@@ -1661,8 +1661,8 @@ StTooltip StLabel {
     padding-bottom: 7px;
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border-radius: 3px;
 }
@@ -1694,8 +1694,8 @@ StTooltip StLabel {
     padding-bottom: 7px;
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border-radius: 3px;
 }
@@ -1730,7 +1730,7 @@ StTooltip StLabel {
 }
 
 #menu-search-entry {
-    color: #00ff00;
+    color: #1685A6;
     background-gradient-direction: vertical;
     background-gradient-start: rgba(0,0,0,0.21);
     background-gradient-end: rgba(0,0,0,0.15);
@@ -1752,7 +1752,7 @@ StTooltip StLabel {
     background-gradient-start: rgba(0,0,0,0.72);
     background-gradient-end: rgba(0,0,0,0.6);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
-    border: 1px solid rgba(226,60,44,0.1);
+    border: 1px solid rgba(22, 133, 166,0.1);
     }
 
 #menu-search-entry:hover {
@@ -1767,7 +1767,7 @@ StTooltip StLabel {
 
 .menu-search-entry-icon {
     icon-size: 1em;
-    color: #00ff00;
+    color: #1685A6;
 }
 
 /* Context menu (at the moment only for favorites) */
@@ -1810,8 +1810,8 @@ StTooltip StLabel {
 .window-list-item-box:focus {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border-radius: 0px;
 }
@@ -1819,8 +1819,8 @@ StTooltip StLabel {
 .window-list-item-box:hover {
     color: #fff;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border-radius: 0px;
 }
@@ -1850,8 +1850,8 @@ StTooltip StLabel {
 }
 .sound-button:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
 }
 
@@ -1942,8 +1942,8 @@ StTooltip StLabel {
 
 .panel-launcher:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border-radius: 0px;
 }
@@ -2021,8 +2021,8 @@ StTooltip StLabel {
 
 .applet-box:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0, 255, 0,0.7);
-    background-gradient-end: rgba(0, 255, 0,0.7);
+    background-gradient-start: rgba(22, 133, 166,0.7);
+    background-gradient-end: rgba(22, 133, 166,0.7);
     box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
     border-radius: 0px;
 }
