@@ -1760,7 +1760,7 @@ StTooltip StLabel {
 }
 
 #menu-search-entry:focus {
-    color: #6BA4E7;
+    color: #E23C2C;
     font-weight: bold;
     transition-duration: 0;
 }
