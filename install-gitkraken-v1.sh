@@ -21,6 +21,12 @@ rm /tmp/gitkraken-amd64.deb
 
 echo "Install manually until fixed - deb is correct!!"
 
+echo "fixing hardcoded icon"
+old="Icon=app"
+new="Icon=gitkraken"
+location="/usr/share/applications/gitkraken.desktop"
+sudo sed -i s/$old/$new/g $location
+
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
