@@ -38,7 +38,7 @@ Type=Application
 Categories=Messaging,Internet
 EOF"
 
-#fixing hardcoded icon
+echo "fixing hardcoded icon"
 old="Icon=\/opt\/franz\/franz-icon.png"
 new="Icon=franz"
 location="/usr/share/applications/franz.desktop"
