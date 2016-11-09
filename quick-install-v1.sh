@@ -15,34 +15,48 @@ sh conky-aureola-v1.sh
 sh icons-sardi-extra-v2.sh
 sh icons-sardi-v1.sh
 sh icons-surfn-v2.sh
-
-
+sh install-all-needed-software-at-once-v3.sh
+sh install-atom-v1.sh
+sh install-boot-repair-v1.sh
+sh install-brackets-v1.sh
 sh install-canon-mg7750-v1.sh
 
 sh install-dconf-editor-v1.sh
+sh install-discord-canary-v1.sh
+sh install-franz-v1.sh
 
-sh install-gtk-arc-theme-v1.sh
 sh install-gtk-arc-theme-red-v1.sh
+sh install-gtk-arc-theme-v1.sh
+sh install-mint-y-theme-github-v1.sh
+sh install-neofetch-v1.sh
+
+sh install-peek-v2.sh
+
+sh install-redshift-v1.sh
+
+sh install-simplescreenrecorder-v1.sh
+sh install-skype-alpha-v1.sh
+sh install-slack-v1.sh
+
+sh install-teamviewer-v1.sh
+sh install-telegram-v1.sh
+sh install-ukuu-v1.sh
+
+sh plank-themes-v1.sh
+
+sh install-visual-studio-code-v1.sh
+sh install-wire-v1.sh
+sh install-zsh-v1.sh
+
+sh plank-themes-v2.sh
 
 sh theme-arc-colora-v1.sh
 sh theme-mint-y-colora-v1.sh
 
-sh install-peek-v1.sh
-
-sh install redshift-v1.sh
-
-sh install-simplescreenrecorder-v1.sh
-
-sh install-teamviewer-v1.sh
-
-sh plank-themes-v1.sh
-
-sh install-all-needed-software-at-once-v1.sh
-
 sh hardcodefixer-v1.sh
-#sh hardcodefixer-personal-v1.sh
 
-sh install-zsh-v1.sh
+
+
 
 
 
@@ -60,7 +74,7 @@ echo "###################    T H E   E N D      ######################"
 echo "################################################################"
 
 
-sh update-to-the-last-stable-4.8-2.sh
+#sh update-to-the-last-stable-4.8-6-v1.sh
 
 echo
 echo
