@@ -93,10 +93,10 @@ binding=['<Primary><Alt>e']
 command='evolution'
 name='evolution'
 
-[custom-keybindings/custom9]
-binding=['<Alt>F4']
-command='gimp'
-name='gimp'
+[custom-keybindings/custom24]
+binding=['<Super>Return']
+command='gnome-terminal'
+name='gnome-terminal'
 
 [custom-keybindings/custom17]
 binding=['<Super>F10']
@@ -113,13 +113,18 @@ binding=['<Primary><Alt>s']
 command='spotify'
 name='spotify'
 
+[custom-keybindings/custom9]
+binding=['<Alt>F4']
+command='gimp'
+name='gimp'
+
 [custom-keybindings/custom19]
 binding=['<Primary>Print']
 command='gnome-screenshot -i'
 name='gnome-screenshot interactive'
 
 [/]
-custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom7', 'custom8', 'custom9', 'custom10', 'custom11', 'custom12', 'custom13', 'custom14', 'custom15', 'custom16', 'custom17', 'custom18', 'custom19', 'custom20', 'custom21', 'custom22', 'custom23']
+custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom7', 'custom8', 'custom9', 'custom10', 'custom11', 'custom12', 'custom13', 'custom14', 'custom15', 'custom16', 'custom17', 'custom18', 'custom19', 'custom20', 'custom21', 'custom22', 'custom23', 'custom24']
 
 [media-keys]
 screenshot-clip=@as []
