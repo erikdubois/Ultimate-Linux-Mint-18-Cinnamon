@@ -11,11 +11,10 @@
 #
 ##################################################################################################################
 
-
-
+sh conky-aureola-v1.sh
+sh icons-sardi-extra-v2.sh
 sh icons-sardi-v1.sh
-sh icons-sardi-extra-v1.sh
-sh icons-surfn-v1.sh
+sh icons-surfn-v2.sh
 
 
 sh install-canon-mg7750-v1.sh
@@ -45,7 +44,7 @@ sh hardcodefixer-v1.sh
 
 sh install-zsh-v1.sh
 
-sh conky-aureola-v1.sh
+
 
 echo "Starting full maintenance"
 echo "Force install"
