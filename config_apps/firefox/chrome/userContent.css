@@ -1,7 +1,7 @@
-input:not(.urlbar-input):not(.textbox-input):not(.form-control):not([type='checkbox']) {
--moz-appearance: none !important;
-background-color: white;
-color: black;
+input:not(.tactile-searchbox-input):not(.urlbar-input):not(.textbox-input):not(.form-control):not([type='checkbox']) {
+    -moz-appearance: none !important;
+    background-color: white;
+    color: black;
 }
 
 #downloads-indicator-counter {

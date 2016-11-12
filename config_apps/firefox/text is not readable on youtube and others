@@ -9,6 +9,10 @@ In that folder create new blank document and name it 'userContent.css' with the 
 Open that document and enter the following (copy & paste).
 source : https://plus.google.com/+JDRichards/posts/4S46rRRCStx
 
+or
+
+https://gist.github.com/umpirsky/a9dc66a0461a5337479fd46a483c7e29
+
 
 input:not(.urlbar-input):not(.textbox-input):not(.form-control):not([type='checkbox']) {
 -moz-appearance: none !important;
