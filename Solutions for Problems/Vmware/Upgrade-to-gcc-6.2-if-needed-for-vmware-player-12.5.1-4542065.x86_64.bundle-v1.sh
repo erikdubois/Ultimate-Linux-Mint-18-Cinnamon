@@ -13,17 +13,16 @@
 
 
 
-rm /tmp/vmware-player.bundle
+# install gcc6 IF IF IF needed to run
+# see first if you can run vmware without gcc upgrading
 
-wget http://www.vmware.com/go/tryplayerpro-linux-64 -O /tmp/vmware-player.bundle
+# http://askubuntu.com/questions/822207/how-do-i-install-gcc-5-0-on-ubuntu-or-linux-mint
+sudo add-apt-repository  -y ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-6 -y
 
-chmod +x /tmp/vmware-player.bundle
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-5
 
-sudo /tmp/vmware-player.bundle
-
-rm /tmp/vmware-player.bundle
-
-echo "start vmware player"
 
 ##################################################################################################################
 
