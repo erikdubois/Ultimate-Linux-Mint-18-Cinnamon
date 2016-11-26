@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/erik/DATA/Ultimate-Linux-Mint-18-Cinnamon/Solutions for Problems/dropbox/dropbox.sh
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=/home/erik/DATA/Ultimate-Linux-Mint-18-Cinnamon/Solutions
+Comment[en_US]=
+X-GNOME-Autostart-Delay=78
