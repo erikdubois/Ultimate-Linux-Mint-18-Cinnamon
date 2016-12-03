@@ -58,14 +58,13 @@
 [ -d $HOME"/.themes" ] || mkdir -p $HOME"/.themes"
 
 
-rm -rf /tmp/arc-theme-colora
-git clone https://github.com/erikdubois/arc-theme-colora /tmp/arc-theme-colora
-#find /tmp/arc-theme-colora -maxdepth 1 -type f -exec rm -rf '{}' \;
-cp -r /tmp/arc-theme-colora/themes/* ~/.themes/
-rm -rf /tmp/arc-theme-colora
-
+rm -rf /tmp/Arc-Theme-Colora-Collection
+git clone https://github.com/erikdubois/Arc-Theme-Colora-Collection /tmp/Arc-Theme-Colora-Collection
+find /tmp/Arc-Theme-Colora-Collection -maxdepth 1 -type f -exec rm -rf '{}' \;
+cp -r /tmp/Arc-Theme-Colora-Collection/Cinnamon\ 3.0/* ~/.themes/
+rm -rf /tmp/Arc-Theme-Colora-Collection
 
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "################## arc colora themes installed   ###############"
 echo "################################################################"
