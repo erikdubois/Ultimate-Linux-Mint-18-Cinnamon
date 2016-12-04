@@ -13,19 +13,15 @@
 
 
 
-rm -rf /tmp/sardi
-wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
-mkdir /tmp/sardi
-tar -zxvf /tmp/sardi.tar.gz -C /tmp/sardi
-rm /tmp/sardi.tar.gz
-
-# if there is no hidden folder then make one
-[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
-
-cp -rf /tmp/sardi/* ~/.icons/
-rm -rf /tmp/sardi
+#https://github.com/mclmza/arc-theme-Red
 
 
+
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-nightly
+
+sudo apt-get update && sudo apt install cinnamon
+
+#sudo ppa-purge ppa:gwendal-lebihan-dev/cinnamon-nightly
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
