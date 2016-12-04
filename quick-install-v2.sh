@@ -50,8 +50,8 @@ sh install-zsh-v1.sh
 
 sh plank-themes-v2.sh
 
-sh theme-arc-colora-v1.sh
-sh theme-mint-y-colora-v1.sh
+sh theme-arc-colora-collection-3.0-v1.sh
+sh theme-mint-y-colora-collection-3.0-v1.sh
 
 sh hardcodefixer-v1.sh
 
