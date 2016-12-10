@@ -27,7 +27,7 @@ Content Playlist of 60+ short movies to make your desktop eye-candy
 Sardi icon set playing its part therein.
 
 About 60 short movies to completely change your desktop experience for linux.
-Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, super ultra flat numix remix icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
+Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
 
 Customisation : https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
 
