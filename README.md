@@ -205,25 +205,22 @@ Sardi Arc
 ![Screenshots](http://i.imgur.com/IeZFWvs.jpg)
 
 
+There is also a collection of **Sardi Extra** icons at 
+
+https://github.com/erikdubois/Sardi-Extra
+
+These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
 
-2. Super Ultra Flat Numix Remix
+
+
+2. Surfn
 --------------------------------- 
-
-This icon theme is based on an older one i.e. yltra flat also on github.
-
-This is an exercise in changing the directories from scalable/... to 22x22/...
-
-Super Ultra Flat Numix Remix will be updated not the Yltra Flat icon set.
-
 
 For ease of installation I use the script
 
-	- icons-super-ultra-flat-numix-latest.sh
+	- icons-suurfn-v2.sh
 
-Also the older icon set can be installed via
-
-	-icons-yltra-flat-latest.sh
 
 
 
