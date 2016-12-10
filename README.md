@@ -219,7 +219,7 @@ These icons can be downloaded but will not be maintained. Nor are they part of t
 
 For ease of installation I use the script
 
-	- icons-suurfn-v2.sh
+	- icons-surfn-v2.sh
 
 
 
