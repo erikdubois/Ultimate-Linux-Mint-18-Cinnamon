@@ -33,7 +33,7 @@ Customisation : https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
 
 Sardi icons: https://sourceforge.net/projects/sardi/files/
 
-Super Ultra Flat Numix Remix : https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
+Surfn icons : https://github.com/erikdubois/Surfn
 
 Aureola conky : https://github.com/erikdubois/Aureola
 
@@ -51,6 +51,11 @@ Check out the movies by clicking here
 <img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
 </a> 
 
+##Download this github
+
+You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
+Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
+
 
 #1 Kernel, cinnamon and nvidia
 
@@ -62,24 +67,11 @@ I have written a script to automate my installations.
 
 <b>KERNEL</b>
 
-You have a choice. 
-
-	- kernel 3.x
-	- kernel 4.x
-
-I choose to install the latter.
+I choose to install the kernel via scipts.
 
 	- ./update-to-the-last-stable-4.x-latest.sh 
 
 Do not forget to type "./" in front of the name.
-
-You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to Extract here.
-Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
-
-Type in the terminal
-
-	
-	- ./update-to-the-last-stable-4.x.x-latest.sh 
 
 
 ![Screenshots](http://i.imgur.com/46pHNmX.jpg)
@@ -91,11 +83,7 @@ I never install this on my working computer. You have been warned.
 
 The very latest cinnamon version can be installed on your system.
 
-Run the script
-
-	- ./install-cinnamon-latest.sh
-
-The script will add a resource.
+These lines will add a resource and update your system.
 
 	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
 	# sudo apt-get update 
@@ -106,8 +94,6 @@ The script will add a resource.
 <b>Nvidia</b>
 
 The last months I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
-
-HAVE NOT TESTED THIS FOR A WHILE
 
 Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
 
@@ -138,7 +124,7 @@ Wait for the installation and reboot.
 
 We start the installation script of all the needed software in the same way as above. 
 
-	- ./install-all-needed-software-at-once-latest.sh
+	- ./install-all-needed-software-at-once-vx.sh
 
 Do not forget to type "./" in front of the name.
 
@@ -170,7 +156,7 @@ http://sourceforge.net/projects/sardi/
 For ease of installation I use the script
 
 
-	- icons-sardi-latest.sh
+	- icons-sardi-vx.sh
 
 
 
