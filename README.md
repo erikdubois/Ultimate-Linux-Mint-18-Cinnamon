@@ -149,9 +149,9 @@ Linux Mint 18 > cinnamon version 3.0
 	cinnamon --version
 
 
-**Arc-Dark-Orange**
+**Arc-Dark-Polo**
 
-![Screenshots](http://i.imgur.com/mNenIjf.jpg)
+![Screenshots](http://i.imgur.com/sGD0oWU.jpg)
 
 Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
 
