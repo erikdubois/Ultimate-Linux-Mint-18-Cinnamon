@@ -37,7 +37,7 @@ The first time I suggest you follow the steps in the article.
 
 I have written a script to automate my installations. 
 
-###KERNEL
+###Kernel
 
 I choose to install the kernel via scipts.
 
@@ -65,7 +65,7 @@ These lines will add a resource and update your system.
 
 ###Nvidia
 
-The last months I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
+The last months/years I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
 
 Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
 
@@ -113,6 +113,8 @@ The best of them
 	Google Chrome
 	...
 
+There are other scripts for applications I sometimes need but will not be installed as of yet.
+
 ##Change the theme to Mint-Y-Dark
 
 Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
@@ -138,7 +140,7 @@ Check first at https://github.com/erikdubois/Arc-Theme-Colora-Collection if your
 
 We can install all the created themes with this script
 
-	theme-arc-colora-collection-3.2-vx.sh
+	theme-arc-colora-collection-3.0-vx.sh
 
 The version of cinnamon is important to have a nice theme or not. 
 Linux Mint 18.1 > cinnamon version 3.2 
@@ -162,9 +164,10 @@ Check first at https://github.com/erikdubois/Mint-Y-Colora-Theme-Collection if y
 
 We can install all the created themes with this script
 
-	theme-mint-y-colora-collection-3.2-vx.sh
+	theme-mint-y-colora-collection-3.0-vx.sh
 
-The version of cinnamon is important to have a nice theme or not. 
+The version of cinnamon is important to have a nice theme or not.
+Linux Mint 18   > cinnamon version 3.0 
 Linux Mint 18.1 > cinnamon version 3.2 
 
 	cinnamon --version
