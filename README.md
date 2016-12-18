@@ -170,7 +170,7 @@ We can install all the created themes with this script
 The version of cinnamon is important to have a nice theme or not.
 
 Linux Mint 18   > cinnamon version 3.0
- 
+
 Linux Mint 18.1 > cinnamon version 3.2 
 
 	cinnamon --version
@@ -197,14 +197,14 @@ Based on Minty-transparent I dived into the code to see how themes were made and
 
 
 
-1. Sardi Icon Theme
--------------------
+##Download the Sardi icons
 
-This icon theme can be downloaded at  sourceforge.
+
+Sardi icon collection can be downloaded at  sourceforge.
 
 http://sourceforge.net/projects/sardi/
 
-For ease of installation I use the script
+For ease of installation I use the scrippt
 
 
 	- icons-sardi-vx.sh
@@ -219,28 +219,33 @@ The most recent pictures can be found there.
 
 https://plus.google.com/u/0/collection/YFP-LB
 
+Sardi is **meant to be changed by the users**. You can use scripts to change the hexadecimal colour code in about 3 seconds.
 
-Some Examples!
 
-
-Sardi Flexible has a script. Type a colour code and 3 seconds later all your icons have changed.
+    Sardi Colora has such a colouring script.
+    Sardi Flat Colora has such a colouring script.
+    Sardi Flexible has such a colouring script.
+    Sardi Ghost Flexible has such a colouring script.
+    Sardi Mono Colora has such a colouring script.
+    Sardi Mono Numix Colora has such a colouring script.
 
 Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
 
-![Screenshots](http://i.imgur.com/T9gN544.jpg)
 
+
+![Screenshots](http://i.imgur.com/T9gN544.jpg)
 
 
 This is the original colour of Sardi Flexible with Minty-transparent theme.
 
 
-
 ![Screenshots](http://i.imgur.com/iS6zFFU.jpg)
 
-Sardi Arc
 
 ![Screenshots](http://i.imgur.com/IeZFWvs.jpg)
 
+
+##Download the Sardi-extra icons
 
 There is also a collection of **Sardi Extra** icons at 
 
@@ -248,34 +253,43 @@ https://github.com/erikdubois/Sardi-Extra
 
 These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
+![Screenshots](http://i.imgur.com/E16dX0C.jpg)
+
+Easy installation with this script
+
+		icons-sardi-extra-vx.sh
+
+More documentation on http://erikdubois.be/category/sardi-icons/
 
 
 
-2. Surfn
---------------------------------- 
+##Download the Surfn icons
 
 For ease of installation I use the script
 
-	- icons-surfn-v2.sh
-
-
+	- icons-surfn-vx.sh
 
 
 ![Screenshots](http://i.imgur.com/i1FGsR9.jpg)
 
 
-
 ![Screenshots](http://i.imgur.com/EocrQ70.png)
 
 
+More info can be found here : https://github.com/erikdubois/Surfn
 
 
-3. Aureola Conky
----------------
+
+##Aureola Conky
+
 
 This is an exercise in writing conky configurations in lua syntax.
 
 At https://github.com/erikdubois/Aureola you can check out these conky's.
+
+Easy installation can be done with this script :
+
+	conky-aureola-vx.sh
 
 ![Screenshots](http://i.imgur.com/y92Jrp4.png)
 
@@ -285,14 +299,13 @@ At https://github.com/erikdubois/Aureola you can check out these conky's.
 
 ![Screenshots](http://i.imgur.com/VgD9SqN.png)
 
+More information can be found here : http://erikdubois.be/category/linux/aureola/
 
 
-
-4. Aurora Conky
----------------
+##Aurora Conky
 	
 
-Aurora is a collection of conky's I like. 
+Aurora is a collection of conky's I like. But prior to the conky version 1.10 (no lua config) 
 
 Download it from http://sourceforge.net/projects/auroraconkytheme/.
 
@@ -338,35 +351,18 @@ http://erikdubois.be/
 
 
 
+##Change the cursor
+
+I like the breeze snow cursors.
 
 
-5. ZSH and Oh-my-sh
------------------------
-I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script.
+	install-breeze-snow-cursor-theme-v1
 
-ZOOM IN to see that the colours and the look change in the terminal.
-Everytime a surprise. Because of the 'random'. Read on. 
-
-![Screenshots](http://i.imgur.com/NUc55XO.png)
-
-./install-zsh-latest.sh
-
-Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
-
-<b>Latest script will take care of that automatically.</b>
-
-[![Install zsh](http://i.imgur.com/vcTLjCT.jpg)](https://www.youtube.com/watch?v=5UOkIRhq7h8 "Install zsh - Click to Watch!")
-
-Each time you start an other terminal you will get a different theme. It will surprise you every time.
-
-[![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
+![Screenshots](http://i.imgur.com/wHp0I9s.png)
 
 
+##Install the plank and download 100+ theme
 
-
-
-6. Plank
-------------------
 
 Plank is installed through this script
 
@@ -389,12 +385,27 @@ Sardi icons and all plank themes
 
 ![Screenshots](http://i.imgur.com/dnmq1g0.gif)
 
-
 Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
 
-7. Folder nemo-scripts
----------------------------
+##Change from bash to zsh in your terminal
+
+I like bash but I prefer zsh with lots of different themes from oh-my-zsh to spice things up. So let us install that via this script.
+
+
+	./install-zsh-vx.sh
+
+
+![Screenshots](http://i.imgur.com/kehYX70.jpg)
+
+Remember to type this in the terminal
+
+	sudo chsh yourname -s /bin/zsh
+
+Log off or reboot.
+
+
+##Folder nemo-scripts
 
 Check out in Nemo (filemanager or explorer in windows)
 
@@ -418,23 +429,13 @@ Or just follow the youtube movie to get more details about 3 scripts I have kept
 
 
 
-# Extra info on Youtube
+# Youtube Resources 
 
-Content Playlist of 60+ short movies to make your desktop eye-candy
+Content Playlist of 100+ short movies to make your desktop eye-candy
 Sardi icon set playing its part therein.
 
-About 60 short movies to completely change your desktop experience for linux.
+About 100+ short movies to completely change your desktop experience for linux.
 Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
-
-Customisation : https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
-
-Sardi icons: https://sourceforge.net/projects/sardi/files/
-
-Surfn icons : https://github.com/erikdubois/Surfn
-
-Aureola conky : https://github.com/erikdubois/Aureola
-
-This was the endresult after executing all the movies.
 
 
 ![Screenshots](http://i.imgur.com/42Mzix2.jpg)
@@ -447,27 +448,6 @@ Check out the movies by clicking here
 <a target="_blank" href="https://www.youtube.com/watch?v=mymzR-4hafQ&list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
 <img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
 </a> 
-
-
-
-
-# Youtube Resources 
-
-Content Playlist of 100+ short movies to make your desktop eye-candy.
-Sardi icon collection playing its part.
-
-https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
-
-About 100+ short movies to completely change your desktop experience for linux.
-They are made on Linux Mint 18 and still apply on 18.1.
-Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
-
-Check out the movies by clicking here
-
-<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
-<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
-</a>
-
 
 
 # Resources
