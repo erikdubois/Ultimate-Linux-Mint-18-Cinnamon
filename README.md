@@ -422,6 +422,63 @@ Based on Minty-transparent I dived into the code to see how themes were made and
 ![Screenshots](http://i.imgur.com/GRFUeE7.jpg)
 
 
+# Youtube Resources 
+
+Content Playlist of 100+ short movies to make your desktop eye-candy.
+Sardi icon collection playing its part.
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
+
+About 100+ short movies to completely change your desktop experience for linux.
+They are made on Linux Mint 18 and still apply on 18.1.
+Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
+
+Check out the movies by clicking here
+
+<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
+<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
+</a>
+
+
+
+# Resources
+
+
+**Sardi icons**
+
+http://erikdubois.be/category/sardi-icons/
+
+https://sourceforge.net/projects/sardi/files/
+
+**Surfn icons**
+
+https://github.com/erikdubois/Surfn
+
+**Aureola conky**
+	
+http://erikdubois.be/category/linux/aureola/
+
+https://github.com/erikdubois/Aureola
+
+**Arc Colora**
+
+http://erikdubois.be/category/themes/arc-based-themes/	
+
+https://github.com/erikdubois/Arc-Theme-Colora
+
+**Mint-Y Colora**
+
+https://github.com/erikdubois/Mint-Y-Colora-Theme
+
+https://github.com/erikdubois/Mint-Y-Colora-Theme-Collection
+
+**Plank and 100+ Plank Themes**
+
+http://erikdubois.be/category/linux/plank/
+
+https://github.com/erikdubois/Plank-Themes.
+
+
 
 # F  A  Q
 --------------------
@@ -445,6 +502,9 @@ Then you can execute it by typing
 
 	./typeyourfilename
 
+Or you can follow these steps
+
+![Screenshots](http://i.imgur.com/vXsOaFL.gif)
 
 
 ------------------------------------
