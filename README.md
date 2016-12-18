@@ -316,23 +316,32 @@ Each time you start an other terminal you will get a different theme. It will su
 
 6. Plank
 ------------------
-Start plank from the menu. <b>CTRL + Right-click</b> on the plank and choose preferences
-and put in on top. I choose a transparent theme.
 
-But there are more themes out there if you want.
+##Install the plank and download 100+ theme
 
-If you want to autostart this everytime.
-Type in the menu " startup". Start 'startup applications'.
+Plank is installed through this script
 
-Add application and choose plank or do it the old way and point to /usr/bin/plank.
+	install-all-needed-software-at-once-vx.sh
+
+Find plank in the menu and start it. <b>CTRL + Right-click</b> on the plank and choose preferences
+and put in on top. Standard you will have only 3 themes.
 
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
 
-A tutorial has been written here : 
+If you want to install 100+ plank themes, you need to run this script : 
 
-http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-autostart/
+	plank-themes-vx.sh
+
+Surfn icons and all plank themes
+
+![Screenshots](http://i.imgur.com/CRfb4Qo.gif)
+
+Sardi icons and all plank themes
+
+![Screenshots](http://i.imgur.com/dnmq1g0.gif)
 
 
+Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
 
 7. Folder nemo-scripts
