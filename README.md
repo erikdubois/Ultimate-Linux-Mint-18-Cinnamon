@@ -169,7 +169,8 @@ We can install all the created themes with this script
 
 The version of cinnamon is important to have a nice theme or not.
 
-Linux Mint 18   > cinnamon version 3.0 
+Linux Mint 18   > cinnamon version 3.0
+ 
 Linux Mint 18.1 > cinnamon version 3.2 
 
 	cinnamon --version
