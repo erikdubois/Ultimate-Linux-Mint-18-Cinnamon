@@ -345,13 +345,6 @@ You should arrive at something similar depending on theme and icons choices:
 
 
 
-Then you take the script apart and you write your own code.
-
-This github script is explained more in depth on my website.
-
-http://erikdubois.be/
-
-
 
 ##Change the cursor
 
