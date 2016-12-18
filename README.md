@@ -4,7 +4,22 @@ Let us first take a screenshot of the initial look of Linux Mint 18 Cinnamon
 
 ![Screenshots](http://i.imgur.com/RFfsxm6.jpg)
 
-Update your system. 
+##Download this github
+
+You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
+Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
+
+Or you can use the terminal and the git command
+
+	git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
+
+
+##Update your system.
+
+Choose if you like to download from local servers or not.
+
+![Screenshots](http://i.imgur.com/w1HNzxs.jpg)
+
 
 ![Screenshots](http://i.imgur.com/LcMjMBG.png)
 
