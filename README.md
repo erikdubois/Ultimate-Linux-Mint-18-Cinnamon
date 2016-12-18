@@ -211,7 +211,7 @@ For ease of installation I use the script
 
 
 
-More documentation on http://erikdubois.be
+More documentation on http://erikdubois.be/category/sardi-icons/
 
 Follow the collection on google+.
 
