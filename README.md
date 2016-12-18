@@ -57,9 +57,9 @@ The very latest cinnamon version can be installed on your system.
 
 These lines will add a resource and update your system.
 
-	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
-	# sudo apt-get update 
-	# sudo apt-get install cinnamon -y
+	sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
+	sudo apt-get update 
+	sudo apt-get install cinnamon -y
 
 
 
