@@ -511,13 +511,15 @@ Or you can follow these steps
 ![Screenshots](http://i.imgur.com/vXsOaFL.gif)
 
 
-------------------------------------
+-------------------------------------------------
 #But that is the fun in Linux.
 
 You can do whatever <b>Y O U</b> want.
 
 Share the knowledge.
-------------------------------------
+
+I share my knowledge at http://erikdubois.be
+------------------------------------------------
 
 
 
