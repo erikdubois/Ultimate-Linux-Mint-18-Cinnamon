@@ -255,6 +255,8 @@ These icons can be downloaded but will not be maintained. Nor are they part of t
 
 ![Screenshots](http://i.imgur.com/E16dX0C.jpg)
 
+Example on Linux Mint 18.1.
+
 Easy installation with this script
 
 		icons-sardi-extra-vx.sh
