@@ -142,7 +142,8 @@ We can install all the created themes with this script
 
 	theme-arc-colora-collection-3.0-vx.sh
 
-The version of cinnamon is important to have a nice theme or not. 
+The version of cinnamon is important to have a nice theme or not.
+
 Linux Mint 18 > cinnamon version 3.0 
 
 	cinnamon --version
