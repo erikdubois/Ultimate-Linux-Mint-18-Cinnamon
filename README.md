@@ -204,7 +204,7 @@ Sardi icon collection can be downloaded at  sourceforge.
 
 http://sourceforge.net/projects/sardi/
 
-For ease of installation I use the scrippt
+For ease of installation I use the script
 
 
 	- icons-sardi-vx.sh
