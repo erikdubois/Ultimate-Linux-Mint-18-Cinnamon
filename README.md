@@ -175,26 +175,13 @@ Linux Mint 18.1 > cinnamon version 3.2
 
 **Mint-Y-Arc-Dark**
 
-![Screenshots](http://i.imgur.com/f5116nb.jpg)
+![Screenshots](http://i.imgur.com/kTN6vmp.jpg)
 
 Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
 
-# Themes
 
-In the theme folder you can find also some themes. Just unpack them and copy them into the hidden folder
-
-	.themes
-
-Then select them with the themes manager.
-
-# Mint-Y-Dark-Arc
-
-Green accents of Mint-Y-Dark have been replaced with a blue accent.
-
-
-![Screenshots](http://i.imgur.com/kTN6vmp.jpg)
 
 
 
