@@ -177,50 +177,16 @@ Linux Mint 18.1 > cinnamon version 3.2
 
 ![Screenshots](http://i.imgur.com/kTN6vmp.jpg)
 
+
+![Screenshots](http://i.imgur.com/LWP9Zuz.jpg)
+
+
 Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
 
 
-
-
-
-![Screenshots](http://i.imgur.com/LWP9Zuz.jpg)
-
-
-This is an exercise how to change the green accents to blue accents
-
-	Green : #8fa876 or #8FA876
-	Blue  : #6ba4e7 or #6BA4E7
-
-Remember linux is capital sensitive.
-
-You can get the Mint-y-dark on github. 
-
-https://github.com/linuxmint/mint-y-theme
-
-I used the script that is in the folder source but first changed the master svg's to have a blue colour.
-
-To do so quickly I used Sublime Text to open the master svg and replaced the codes. Even then I had to go inside the svg to change some of them manually. Some do not have this exact colour but a derivative.
-
-Installed the following packages to be able to run the scripts.
-
-	- sudo apt install ruby-sass
-	- sudo apt install optipng
-
-Search for all the instances of this green (#8fa876) and changed it to blue (#6ba4e7). Not in the svg's this time but in everything else like e.g. css or rc.
-The best tool for the job is catfish. 
-
-	- sudo apt install catfish
-
-Catfish can also search INSIDE the files. So the actual content of the file.
-
 ![Screenshots](http://i.imgur.com/fhAeJd6.png)
-
-Change the name of the theme and try it out.
-
-If you just want to explore the css codes, I can recommend you brackets as it will show you the colour when you hover over a code. Sublime-text will not do this.
-There is a script to easily install brackets as it needs a dependancy on Linux Mint 18.
 
 
 # Minty-transparent
