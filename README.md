@@ -28,49 +28,8 @@ Ofcourse you can change the theme. I like the mint-y-dark theme which I will use
 ![Screenshots](http://i.imgur.com/TzllSMo.png)
 
 
-This is my way of working when installing a new operating system.
 
-First upgrade kernel, nvidia and cinnamon/nemo.
-If everything is still working we can install the software and start customizing the system.
-
-
-# Extra info on Youtube
-
-Content Playlist of 60+ short movies to make your desktop eye-candy
-Sardi icon set playing its part therein.
-
-About 60 short movies to completely change your desktop experience for linux.
-Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
-
-Customisation : https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
-
-Sardi icons: https://sourceforge.net/projects/sardi/files/
-
-Surfn icons : https://github.com/erikdubois/Surfn
-
-Aureola conky : https://github.com/erikdubois/Aureola
-
-This was the endresult after executing all the movies.
-
-
-![Screenshots](http://i.imgur.com/42Mzix2.jpg)
-
-![Screenshots](http://i.imgur.com/kTN6vmp.jpg)
-
-
-Check out the movies by clicking here
-
-<a target="_blank" href="https://www.youtube.com/watch?v=mymzR-4hafQ&list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
-<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
-</a> 
-
-##Download this github
-
-You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
-Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
-
-
-#1 Kernel, cinnamon and nvidia
+## Kernel, cinnamon and nvidia
 
 As described at http://erikdubois.be/ I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
 
@@ -78,7 +37,7 @@ The first time I suggest you follow the steps in the article.
 
 I have written a script to automate my installations. 
 
-<b>KERNEL</b>
+###KERNEL
 
 I choose to install the kernel via scipts.
 
@@ -90,7 +49,7 @@ Do not forget to type "./" in front of the name.
 ![Screenshots](http://i.imgur.com/46pHNmX.jpg)
 
 
-<b>Cinnamon</b>
+###Cinnamon
 
 I never install this on my working computer. You have been warned.
 
@@ -104,7 +63,7 @@ These lines will add a resource and update your system.
 
 
 
-<b>Nvidia</b>
+###Nvidia
 
 The last months I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
 
@@ -130,10 +89,11 @@ Check on Nvidia.com which driver you should use.
 
 Wait for the installation and reboot.
 
+More info when running into problems : http://erikdubois.be/install-latest-nvidia-driver-linux-mint-18/
 
 
 
-#2 Software installation
+##Software installation
 
 We start the installation script of all the needed software in the same way as above. 
 
@@ -153,10 +113,133 @@ The best of them
 	Google Chrome
 	...
 
+##Change the theme to Mint-Y-Dark
+
+Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
+
+    sudo apt install screenfetch
+
+
+![Screenshots](http://i.imgur.com/YO66kdK.png)
+
+Sometimes you can change the present theme to its dark equivalent.
+Follow these steps to check if a dark variant of your theme exist. Best to logoff or reboot to be sure.
+
+![Screenshots](http://i.imgur.com/JkeB1Ek.gif)
+
+This is an example of Sardi icons and dark theme on.
+
+
+## Download the Arc themes
+
+Using the scripts at https://github.com/erikdubois/Arc-Theme-Colora we can change the standard blue colour from Arc to any colour we like.
+
+Check first at https://github.com/erikdubois/Arc-Theme-Colora-Collection if your colour has been created already.
+
+We can install all the created themes with this script
+
+	theme-arc-colora-collection-3.2-vx.sh
+
+The version of cinnamon is important to have a nice theme or not. 
+Linux Mint 18.1 > cinnamon version 3.2 
+
+	cinnamon --version
+
+
+**Arc-Dark-Orange**
+
+![Screenshots](http://i.imgur.com/mNenIjf.jpg)
+
+Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
 
 
 
-#3 Extra's
+## Download the Mint-Y themes
+
+Using the scripts at https://github.com/erikdubois/Mint-Y-Colora-Theme we can change the standard green colour from Mint-Y to any colour we like.
+
+Check first at https://github.com/erikdubois/Mint-Y-Colora-Theme-Collection if your colour has been created already.
+
+We can install all the created themes with this script
+
+	theme-mint-y-colora-collection-3.2-vx.sh
+
+The version of cinnamon is important to have a nice theme or not. 
+Linux Mint 18.1 > cinnamon version 3.2 
+
+	cinnamon --version
+
+**Mint-Y-Arc-Dark**
+
+![Screenshots](http://i.imgur.com/f5116nb.jpg)
+
+Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
+
+
+
+# Themes
+
+In the theme folder you can find also some themes. Just unpack them and copy them into the hidden folder
+
+	.themes
+
+Then select them with the themes manager.
+
+# Mint-Y-Dark-Arc
+
+Green accents of Mint-Y-Dark have been replaced with a blue accent.
+
+
+![Screenshots](http://i.imgur.com/kTN6vmp.jpg)
+
+
+
+![Screenshots](http://i.imgur.com/LWP9Zuz.jpg)
+
+
+This is an exercise how to change the green accents to blue accents
+
+	Green : #8fa876 or #8FA876
+	Blue  : #6ba4e7 or #6BA4E7
+
+Remember linux is capital sensitive.
+
+You can get the Mint-y-dark on github. 
+
+https://github.com/linuxmint/mint-y-theme
+
+I used the script that is in the folder source but first changed the master svg's to have a blue colour.
+
+To do so quickly I used Sublime Text to open the master svg and replaced the codes. Even then I had to go inside the svg to change some of them manually. Some do not have this exact colour but a derivative.
+
+Installed the following packages to be able to run the scripts.
+
+	- sudo apt install ruby-sass
+	- sudo apt install optipng
+
+Search for all the instances of this green (#8fa876) and changed it to blue (#6ba4e7). Not in the svg's this time but in everything else like e.g. css or rc.
+The best tool for the job is catfish. 
+
+	- sudo apt install catfish
+
+Catfish can also search INSIDE the files. So the actual content of the file.
+
+![Screenshots](http://i.imgur.com/fhAeJd6.png)
+
+Change the name of the theme and try it out.
+
+If you just want to explore the css codes, I can recommend you brackets as it will show you the colour when you hover over a code. Sublime-text will not do this.
+There is a script to easily install brackets as it needs a dependancy on Linux Mint 18.
+
+
+# Minty-transparent
+
+Based on Minty-transparent I dived into the code to see how themes were made and changed some minor accents.
+
+![Screenshots](http://i.imgur.com/NWfRtQD.jpg)
+
+![Screenshots](http://i.imgur.com/GRFUeE7.jpg)
+
 
 
 1. Sardi Icon Theme
@@ -378,68 +461,39 @@ Or just follow the youtube movie to get more details about 3 scripts I have kept
 [![How to add scripts to nemo](http://i.imgur.com/8lFcYuP.jpg)](https://www.youtube.com/watch?v=JCxxs7IzUbs "How to add scripts to nemo - Click to Watch!")
 
 
-# Themes
 
-In the theme folder you can find also some themes. Just unpack them and copy them into the hidden folder
 
-	.themes
+# Extra info on Youtube
 
-Then select them with the themes manager.
+Content Playlist of 60+ short movies to make your desktop eye-candy
+Sardi icon set playing its part therein.
 
-# Mint-Y-Dark-Arc
+About 60 short movies to completely change your desktop experience for linux.
+Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
 
-Green accents of Mint-Y-Dark have been replaced with a blue accent.
+Customisation : https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
 
+Sardi icons: https://sourceforge.net/projects/sardi/files/
+
+Surfn icons : https://github.com/erikdubois/Surfn
+
+Aureola conky : https://github.com/erikdubois/Aureola
+
+This was the endresult after executing all the movies.
+
+
+![Screenshots](http://i.imgur.com/42Mzix2.jpg)
 
 ![Screenshots](http://i.imgur.com/kTN6vmp.jpg)
 
 
+Check out the movies by clicking here
 
-![Screenshots](http://i.imgur.com/LWP9Zuz.jpg)
-
-
-This is an exercise how to change the green accents to blue accents
-
-	Green : #8fa876 or #8FA876
-	Blue  : #6ba4e7 or #6BA4E7
-
-Remember linux is capital sensitive.
-
-You can get the Mint-y-dark on github. 
-
-https://github.com/linuxmint/mint-y-theme
-
-I used the script that is in the folder source but first changed the master svg's to have a blue colour.
-
-To do so quickly I used Sublime Text to open the master svg and replaced the codes. Even then I had to go inside the svg to change some of them manually. Some do not have this exact colour but a derivative.
-
-Installed the following packages to be able to run the scripts.
-
-	- sudo apt install ruby-sass
-	- sudo apt install optipng
-
-Search for all the instances of this green (#8fa876) and changed it to blue (#6ba4e7). Not in the svg's this time but in everything else like e.g. css or rc.
-The best tool for the job is catfish. 
-
-	- sudo apt install catfish
-
-Catfish can also search INSIDE the files. So the actual content of the file.
-
-![Screenshots](http://i.imgur.com/fhAeJd6.png)
-
-Change the name of the theme and try it out.
-
-If you just want to explore the css codes, I can recommend you brackets as it will show you the colour when you hover over a code. Sublime-text will not do this.
-There is a script to easily install brackets as it needs a dependancy on Linux Mint 18.
+<a target="_blank" href="https://www.youtube.com/watch?v=mymzR-4hafQ&list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
+<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
+</a> 
 
 
-# Minty-transparent
-
-Based on Minty-transparent I dived into the code to see how themes were made and changed some minor accents.
-
-![Screenshots](http://i.imgur.com/NWfRtQD.jpg)
-
-![Screenshots](http://i.imgur.com/GRFUeE7.jpg)
 
 
 # Youtube Resources 
