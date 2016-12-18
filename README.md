@@ -317,7 +317,7 @@ Each time you start an other terminal you will get a different theme. It will su
 6. Plank
 ------------------
 
-##Install the plank and download 100+ theme
+Install the plank and download 100+ theme
 
 Plank is installed through this script
 
