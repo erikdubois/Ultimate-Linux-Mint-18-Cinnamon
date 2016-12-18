@@ -185,10 +185,6 @@ Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/t
 
 
 
-
-![Screenshots](http://i.imgur.com/fhAeJd6.png)
-
-
 # Minty-transparent
 
 Based on Minty-transparent I dived into the code to see how themes were made and changed some minor accents.
