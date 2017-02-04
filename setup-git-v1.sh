@@ -11,16 +11,6 @@
 #
 ##################################################################################################################
 
-# Standard text output from Github
-
-# echo "# Github Tutorial" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git remote add origin https://github.com/erikdubois/Github-Tutorial.git
-# git push -u origin master
-
-
 # Problem solving commands
 
 # Read before using it.
@@ -35,8 +25,7 @@
 # git reset --hard orgin/master
 
 
-# assuming you have an debian based distro
-#checking if git is installed else install it
+# installing git if not installed for specific distro's
 
 if ! location="$(type -p "git")" || [ -z "git" ]; then
 
@@ -45,10 +34,28 @@ if ! location="$(type -p "git")" || [ -z "git" ]; then
 	echo "#################################################"
 
   	sudo apt install git -y
+	# check if apt-git is installed
+	if which apt-get > /dev/null; then
+
+		sudo apt-get install -y git
+
+	fi
+
+	# check if pacman is installed
+	if which pacman > /dev/null; then
+
+		sudo pacman -S --noconfirm git
+
+	fi
+
+	# check if eopkg is installed
+	if which eopkg > /dev/null; then
+
+		sudo eopkg -y install git
+
+	fi
+
 fi
-
-
-
 
 #setting up git
 #https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
@@ -58,12 +65,8 @@ git config --global user.name "Erik Dubois"
 git config --global user.email "erik.dubois@gmail.com"
 sudo git config --system core.editor nano
 git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=3600'
+git config --global credential.helper 'cache --timeout=18000'
 git config --global push.default simple
-
-
-
-#git remote add origin https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon.git
 
 
 echo "################################################################"
